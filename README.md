@@ -53,7 +53,7 @@ version might do all this by itself in the future.
 
 # Requirements
 
-* the heroprotocol python repository cloned locally
+* the heroprotocol python repository cloned locally. If using the executable version of swiftheroprotocol then this python files must reside in `[executable path]/py-heroprotocol/heroprotocol-master`
 * Xcode 10 (although not necessary if you use swift command line to build)
 * Apple Swift version 4.2-dev toolchain or up (at least LLVM da1c9a3ae4, Clang 78aa734eee, Swift 18650bc69c)
 * Python 2.7.14 installed with homebrew. If installed through other means the modulemap paths need to be changed. Ensure that `/usr/local/Cellar/python/2.7.14/Frameworks/Python.framework` exists
@@ -62,7 +62,7 @@ version might do all this by itself in the future.
 
 # Instalation
 
-* Copy the `heroprotocolbridge.py` file from `Sources/HeroProtocol/` into the executable's or your target's folder. This is because of a limitation of SwiftPM that doesn't have a way to bundle files with a package
+* Copy the `heroprotocolbridge.py` file from `Sources/HeroProtocol/` into `[executable or target path]/py-heroprotocol/`. This is because of a limitation of SwiftPM that doesn't have a way to bundle files with a package
 
 ## Standalone
 
