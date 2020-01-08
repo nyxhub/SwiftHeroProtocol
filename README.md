@@ -54,8 +54,7 @@ version might do all this by itself in the future.
 # Requirements
 
 * the heroprotocol python repository cloned locally. If using the executable version of swiftheroprotocol then this python files must reside in `[executable path]/py-heroprotocol/heroprotocol-master`
-* Xcode 10 (although not necessary if you use swift command line to build)
-* Apple Swift version 4.2-dev toolchain or up (at least LLVM da1c9a3ae4, Clang 78aa734eee, Swift 18650bc69c)
+* Xcode 11 or Swift 5.1 toolchain
 * Python 2.7.14 installed with homebrew. If installed through other means the modulemap paths need to be changed. Ensure that `/usr/local/Cellar/python/2.7.14/Frameworks/Python.framework` exists
 * ZLib C library
 * BZip2 1.0.6 library installed with homebrew. Ensure that BZip2 is installed in `/usr/local/Cellar/bzip2/1.0.6_1`. If installed in different location you must modify the modulemap for bzip2 in MPQArchive
